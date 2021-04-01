@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "target": "es5",
+        "jsx": "react-jsx",
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "react": ["node_modules/react/umd/react.development"],
+            "reactDOM": ["node_modules/react-dom/umd/react-dom.development"]
+        },
+        "typeRoots": ["./node_modules/@types"]
+    },
+    "exclude": [
+        "node_modules",
+        "bower_components",
+        "dist",
+        "coverage"
+    ]
+}
